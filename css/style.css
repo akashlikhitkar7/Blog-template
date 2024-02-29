@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font-2);
+    /* height: 74px; */
+    /* background-color: red; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navleft {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.navleft ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 25px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.navleft a{
+    text-decoration: none;
+}
+
+
+.navleft ul li a{
+    font-family: var(--font-1);
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+
+}
+.navleft ul li:hover{
+    color: #bcbbb8;
+    font-weight: bold;
+ 
+
+}
+.content-left{
+    font-family: var(--font-1);
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img{
+    height: 214px;
+    width: 370px;
+    border: 2px solid;
+    border-radius: 114px;
+    margin: 23px;
+}
+.content {
+    height: 355px;
+    display: flex;
+    position: relative;
+    
+}
+
+.content::after{
+    content: " ";
+    background-image: url(/img/img4.jpg);
+    position: absolute;
+    width: 100%;
+    height:inherit;
+    opacity: 0.2;
+    background-position: center;
+    
+
+}
+
+.home-articles{
+    padding: 10px;
+    position: relative;
+}
+.home-articles h2{
+    padding-left: 10px;
+    font-size: 23px;
+}
+
+.year-box{
+    right: -30px;
+    display: flex;
+    top: 15px;
+    position: absolute;
+    width: 196px;
+    height: 19px;
+}
+.year-box input{
+    margin: 0px 5px;
+}
+.year-box h4{
+    margin: -1px 2px;
+}
+.home-article{
+    display: flex;
+    background-color: rgb(237 237 237 / 50%);
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 0 50px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color:black;
+}
+
+.home-article-img img{
+    width: 19vw;
+    border-radius: 2vw;
+    margin: 9px;
+}
+
+.footer {
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+
+}
+.footer a{
+    color: white;
+}

@@ -1,0 +1,130 @@
+.post-img{
+    overflow: hidden;
+    margin-top: 4px;
+    position: relative;
+}
+
+.post-img img{
+    width: 100%;
+    height: 66vh;
+    opacity: 0.5;
+    padding-top: 3px;
+    position: relative;
+}
+
+.post-img h1{
+    position: absolute;
+    display: flex;
+    padding: 2px 0px;
+    top: 11px;
+    left: 26vw;
+    z-index: 10;
+}
+.navright{
+    position: relative;
+}
+
+.right-icon{
+    position: absolute;
+    top: 5px;
+    left: -193px;
+}
+
+.right-icon i{
+    padding: 0px 22px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.post-otharName .left-otherName{
+    position: absolute;
+    display: flex;
+    top: 48px;
+    left: 68px;
+    font-size: 16px;
+    z-index: 10;
+}
+
+.post-otharName .year-time{
+    position: absolute;
+    display: flex;
+    top: 67px;
+    left: 68px;
+    font-size: 14px;
+    z-index: 29;
+}
+.post-right{
+    background-image: url(/img/img7.jpeg);
+    width: 299px;
+    height: 167px;
+    border-radius: 10px;
+    position: absolute;
+    right: 23px;
+    top: 62px;
+    z-index: 1;
+
+}
+
+.post-left{
+    position: absolute;
+    padding: 13px 39px;
+    width: 45vw;
+    font-size: 16px;
+    z-index: 10;
+    left: 30px;
+    top: 93px;
+}
+
+.home-article-img img{
+    width: 17vw;
+    border-radius: 19px;
+    margin: 26px 40px;
+}
+
+.home-article-img{
+    display: flex;
+}
+.home-article {
+    display: flex;
+    background-color: rgb(237 237 237 / 50%);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+
+.post-right1{
+    right: -38px;
+    top: 265px;
+}
+.post-center1{
+    left: 392px;
+    top: 265px;
+}
+.blog-read{
+    width: 100%;
+    background-image: url(/img/img7.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: red;
+}
+.blog-read-container{
+    margin-top: 5px;
+}

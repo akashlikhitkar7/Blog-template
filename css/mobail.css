@@ -1,0 +1,80 @@
+@media screen and (max-width:1050px) {
+    .navigation {
+        flex-direction: column;
+        margin: 23px;
+    }
+
+    .navleft {
+        text-align: center;
+        flex-direction: column;
+
+    }
+
+    .content-right {
+        display: none;
+    }
+
+    .content-left h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 18px;
+    }
+
+    .home-article {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-articles h2 {
+        padding-left: 0px;
+        font-size: 21px;
+    }
+
+    .content-left h2 {
+        font-size: 23px;
+    }
+
+    .year-box h4 {
+        margin: -1px -2px;
+    }
+
+    .year-box {
+        right: -63px;
+    }
+
+    .navright{
+        margin-top: -11px;
+        margin-bottom: 10px;
+    }
+    .home-article-img img{
+        width: 41vw;
+    }
+    .post-img h1{
+        font-size: 22px;
+        
+    }
+    .post-right {
+        display: none;
+    }
+    .post-left {
+        width: 72vw;
+        padding: 10px 4px
+    }
+    .home-article-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .post-otharName .left-otherName {
+        top: 69px;
+        left: 11px;
+    }
+    .post-otharName .year-time {
+        top: 88px;
+        left: 13px;
+    }
+    .right-icon {
+        display: none;
+    }
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Archivo+Black&family=Baloo+2:wght@800&family=Baloo+Bhaina+2&family=Bree+Serif&family=Frank+Ruhl+Libre:wght@600&family=Gabarito&family=Gelasio:wght@400;500&family=Merriweather:wght@300&family=Noto+Serif&family=Poppins:wght@300&family=Roboto&family=Varela&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Archivo+Black&family=Baloo+Bhaina+2&family=Bree+Serif&family=Frank+Ruhl+Libre:wght@600&family=Gabarito&family=Gelasio:wght@400;500&family=Merriweather:wght@300&family=Noto+Serif&family=Poppins:wght@300&family=Roboto&family=Varela&family=Varela+Round&display=swap');
+:root {
+    --main-bg-color: purple;
+    --font-1: 'Roboto', sans-serif;
+    --font-2:  'Bree Serif', serif;
+  }
+
+.font1{
+    font-family: var(--font-1);
+}
+.font2{
+    font-family: var(--font-1);
+}
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 70vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.btn{
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-family: var(--font-1);
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.form-input{
+    font-family: var(--font-1);
+    padding: 4px 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 15px;
+    font-size: 14px;
+    
+}
